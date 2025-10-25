@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        
+        <style>
+            
+      html, body {
+        height: auto;
+        padding: 0;
+        background-color: blue; /* Zachte blauwe achtergrond */
+      }
+      /* ---------- BASISOPMAAK ---------- */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: lightblue;
+        color: #333;
+        max-width: 600px; /* Pagina 600 pixels breed */
+        margin: 40px auto; /* Centreer op scherm */
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        background: white;
+        text-align: justify
+      }
+            
+           
+
+      /* ---------- TITEL ---------- */
+      .title {
+        text-align: center;
+        color: #ff9800;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+      }
+
+      /* ---------- TEKST ---------- */
+      p {
+        line-height: 1.6;
+        margin-bottom: 16px;
+      }
+
+      .text-lg {
+        font-size: 1.1em;
+      }
+
+      .text-gray-600 {
+        color: #666;
+      }
+
+      .max-w-lg {
+        max-width: 600px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      /* ---------- LIJST ---------- */
+      ul {
+        list-style-type: "🌻☀️ ";
+        padding-left: auto;
+        margin-bottom: 20px;
+      }
+
+      /* ---------- AFBEELDING ---------- */
+      img {
+        display: block;
+        margin: 15px auto;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      /* ---------- KNOP ---------- */
+      button {
+        display: table-row ;
+        justify-content: center;
+        margin:  30px auto;
+        padding: 12px 24px;
+        background-color: #ff9800;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+    #wwaregem {
+      float: left
+    }
+    #end {
+      float: right
+    }
+
+      button:hover {
+        background-color: #e68a00;
+      }
+    </style>
+        
+    </head>
+    <body>
+    
+        <h1>Enkele leuke momenten!</h1>
+        
+        <p>
+            Tussen al het voorgaande zijn er vele dingen die niet vermeld zijn. Denk maar aan de
+            minigolf in Gullegem waar je voor de eerste keer men broer hebt leren kennen.
+            <br>
+            <img src="images/a1.JPEG" alt="a1" width="300">
+        </p>
+        
+        <p>
+            Zeker niet te vergeten zijn onze avonduitstapjes naar Ieper, Kortrijk, Waregem, Nieuwpoort,
+            Middelkerke, 
+            In Nieuwpoort was je m'n steun en toeverlaat. Je ging mee in de voorbereiding en ik 
+            zag je aan de finish! Zo was het plaatje pas echt compleet!
+            <br>
+            <img src="images/a2.JPEG" alt="a2" width="300">
+            <img src="images/a3.JPEG" alt="a3" width="300">
+        </p>
+        
+        <p>
+            Onze etentjes, de zonsondergang het dom doen, het energiek zijn, is de rode draad in 
+            onze ontmoetingen, het lachen,. Het typeert ons zoals we zijn en dat maakt het mooi!
+            <br>
+            <img src="images/a4.JPEG" alt="a4" width="300">
+            <img src="images/a5.JPEG" alt="a5" width="300">
+            <img src="images/a6.JPEG" alt="a6" width="650">
+            <img src="images/a7.JPEG" alt="a7" width="300">
+            <img src="images/a8.JPEG" alt="a8" width="300">
+            <img src="images/a9.JPEG" alt="a9" width="300">
+        </p>
+        
+        <button id="wwaregem">Ga naar ons weekend Waregem!</button>
+        <button id="end">Ga naar het einde!</button>
+  
+        <script>
+            document.getElementById("wwaregem").addEventListener("click", function() {
+            window.location.href = "9weekendwaregem.html";
+            });
+                document.getElementById("end").addEventListener("click", function() {
+                        window.location.href = "11Eind.html";
+            });
+        </script>
+        
+    </body>
+</html>

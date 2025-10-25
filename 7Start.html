@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        
+        <style>
+            
+      html, body {
+        height: auto;
+        padding: 0;
+        background-color: blue; /* Zachte blauwe achtergrond */
+      }
+      /* ---------- BASISOPMAAK ---------- */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: lightblue;
+        color: #333;
+        max-width: 600px; /* Pagina 600 pixels breed */
+        margin: 40px auto; /* Centreer op scherm */
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        background: white;
+        text-align: justify
+      }
+            
+           
+
+      /* ---------- TITEL ---------- */
+      .title {
+        text-align: center;
+        color: #ff9800;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+      }
+
+      /* ---------- TEKST ---------- */
+      p {
+        line-height: 1.6;
+        margin-bottom: 16px;
+      }
+
+      .text-lg {
+        font-size: 1.1em;
+      }
+
+      .text-gray-600 {
+        color: #666;
+      }
+
+      .max-w-lg {
+        max-width: 600px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      /* ---------- LIJST ---------- */
+      ul {
+        list-style-type: "🌻☀️ ";
+        padding-left: auto;
+        margin-bottom: 20px;
+      }
+
+      /* ---------- AFBEELDING ---------- */
+      img {
+        display: block;
+        margin: 15px auto;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      /* ---------- KNOP ---------- */
+      button {
+        display: table-row ;
+        justify-content: center;
+        margin:  30px auto;
+        padding: 12px 24px;
+        background-color: #ff9800;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+    #waregem {
+      float: left
+    }
+    #westhoek {
+      float: right
+    }
+
+      button:hover {
+        background-color: #e68a00;
+      }
+    </style>
+        
+    </head>
+    <body>
+        <h1>The start of us!</h1>
+        
+        <p>
+            Mooie liedjes duren niet lang. De vakantie was voor mij gedaan, ik wist niet wat met te
+            wachten stond. Gelukkig had ik jou als mijn steun en toeverlaat, mijn reddende engel.
+            Gelukkig duurde het niet lang voor we de volgende date hadden. Deze was op 4 september 2025
+            in Kortrijk. We aten er verschillende kroketten en gingen naar de Irish pub. Weer een avond vol plezier,
+            goeie gesprekken, blije momenten, gezelligheid en geluk. De verliefheid bleef toenemen.
+            <br>
+            <img src="images/start1.PNG" alt="start1" width="300">
+        </p>
+        
+        <p>
+            We besloten om deze prachtige avond af te sluiten aan de Leie, bij de Broeltorens.
+            Het intieme contact nam toe en spraken voor het eerst onze liefde uit, ook al was dit
+            al duidelijk aan onze manier van doen ;). Ik wilde persé nog eens genieten van het zicht 
+            vanop de brug bij de Broeltorens. Natuurlijk was dit niet zonder bijbedoelingen :). Ik had op
+            dat moment alles, behalve een persoon om mijn leven mee te delen. Zoals de band tussen ons 
+            evolueerde, kon het niet anders: jij zou mijn vriendin worden. Zoals altijd reageerde
+            je enthousiast. De woorden "Ja, natuurlijk" hoor ik nog steeds alsof ik ze gisteren hoorde!
+            <br>
+            <img src="images/start2.jpg" alt="start2" width="500">
+            <br>
+        </p>
+        
+        <h2>Vanaf dit moment, 4 september 2025, mag ik jou, Uma Van Der Beken, mijn vriendin noemen! Ik zie je graag! ❤️</h2>
+        
+        <button id="waregem">Ga naar Waregem!</button>
+        <button id="westhoek">Ga naar de Westhoek!</button>
+  
+        <script>
+            document.getElementById("waregem").addEventListener("click", function() {
+            window.location.href = "6waregem1.html";
+            });
+            document.getElementById("westhoek").addEventListener("click", function() {
+            window.location.href = "8westhoek.html";
+            });
+        </script>
+        
+    </body>
+</html>

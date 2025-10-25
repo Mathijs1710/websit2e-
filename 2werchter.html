@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Werchter</title>
+  
+  <style>
+            
+      html, body {
+        height: auto;
+        padding: 0;
+        background-color: blue; /* Zachte blauwe achtergrond */
+      }
+      /* ---------- BASISOPMAAK ---------- */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: lightblue;
+        color: #333;
+        max-width: 600px; /* Pagina 600 pixels breed */
+        margin: 40px auto; /* Centreer op scherm */
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        background: white;
+        text-align: justify
+      }
+            
+           
+
+      /* ---------- TITEL ---------- */
+      .title {
+        text-align: center;
+        color: #ff9800;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+      }
+
+      /* ---------- TEKST ---------- */
+      p {
+        line-height: 1.6;
+        margin-bottom: 16px;
+      }
+
+      .text-lg {
+        font-size: 1.1em;
+      }
+
+      .text-gray-600 {
+        color: #666;
+      }
+
+      .max-w-lg {
+        max-width: 600px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      /* ---------- LIJST ---------- */
+      ul {
+        list-style-type: "🌻☀️ ";
+        padding-left: auto;
+        margin-bottom: 20px;
+      }
+
+      /* ---------- AFBEELDING ---------- */
+      img {
+        display: block;
+        margin: 15px auto;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      /* ---------- KNOP ---------- */
+      button {
+        display: table-row ;
+        justify-content: center;
+        margin:  30px auto;
+        padding: 12px 24px;
+        background-color: #ff9800;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+    #home {
+      float: left
+    }
+    #gent {
+      float: right
+    }
+
+      button:hover {
+        background-color: #e68a00;
+      }
+    </style>
+  
+</head>
+<body>
+  <h1>Welkom op Werchter!</h1>
+  <h2>Dit is de plaats waar alles begon, het begin van een mooi verhaal, ons verhaal!</h2>
+    
+    <p>
+      Dankzij Arne wist ik voor Werchter al van je bestaan ;). Jij wist van niets. Toen ik je voor het eerst zag viel je meteen op:
+      je was een aanwezig persoon, op de positieve manier!
+      Onze eerste ontmoeting ben je helaas vergeten, maar de tweede is gelukkig blijven hangen! Je noemde Arne en ik de levende GPS'en. Je bedankte ons met
+      je overheerlijke pasta. Ik heb nog nooit zo hard genoten van een pasta als op dat moment! De side activities mag je zelf invullen van die avond haha.
+    </p>
+    
+    <br>
+    <p>
+        We hebben er veel gedanst, gelachen, gedronken en gepraat. Na elke zware dag had ik de eer om je de weg te wijzen naar je tent. Ik voelde me vereerd!
+        Ik weet nog goed hoe Celien en jij daar zaten aan de ingang van de camping😄.
+        Ik zag je op enkele concerten en had direct door dat je vol energie zat, al was dat op de laatste dag wel helemaal op, inclusief je stem😄.
+        Je was energiek, sociaal vriendelijk en zoals nog steeds trek je jezelf van weinig aan. Alleen maar goede eigenschappen die behouden moetne worden!
+    </p>
+    
+    <p>
+        We hebben Werchter afgesloten met de bedoeling een "mooie" wandeling te maken. Een wandeling waar achteraf nog veel over gesproken zou worden. 
+        Helaas is de wandeling niet verder geraakt dan 50 meter rechtdoor, 50 meter naar recht, weer 50 meter naar recht om tot slot terug bij je tent
+        te komen haha. Het was al terug licht en ik moest jammer genoeg vroeg vertrekken  op reis. Werchter werd afgesloten met een kus en de woorden:
+    </p>
+    
+    <p>
+        M: "Hoor ik je nog na Werchter?"
+        <br>
+        U: "Ja, je moet maar sturen hé..."
+    </p>
+    
+    <p>P.S. Achteraf kwam plots naar boven dat we samen op een BeReal stonden :) &#8595</p>
+    <br>
+    
+    <img src="images/werchter.png" alt="Onze Werchter foto" width="500">
+    
+    <br>
+  
+  <button id="home">Ga naar begin!</button>
+  <button id="gent">Ga naar Gent!</button>
+  
+  <script>
+     document.getElementById("home").addEventListener("click", function() {
+      window.location.href = "index.html";
+    });
+    document.getElementById("gent").addEventListener("click", function() {
+      window.location.href = "3Gent.html";
+    });
+    
+  </script>
+</body>
+</html>

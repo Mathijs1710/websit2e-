@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+      
+          <style>
+            
+      html, body {
+        height: auto;
+        padding: 0;
+        background-color: blue; /* Zachte blauwe achtergrond */
+      }
+      /* ---------- BASISOPMAAK ---------- */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: lightblue;
+        color: #333;
+        max-width: 600px; /* Pagina 600 pixels breed */
+        margin: 40px auto; /* Centreer op scherm */
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        background: white;
+      }
+            
+           
+
+      /* ---------- TITEL ---------- */
+      .title {
+        text-align: center;
+        color: #ff9800;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+      }
+
+      /* ---------- TEKST ---------- */
+      p {
+        line-height: 1.6;
+        margin-bottom: 16px;
+      }
+
+      .text-lg {
+        font-size: 1.1em;
+      }
+
+      .text-gray-600 {
+        color: #666;
+      }
+
+      .max-w-lg {
+        max-width: 600px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      /* ---------- LIJST ---------- */
+      ul {
+        list-style-type: "🌻☀️ ";
+        padding-left: auto;
+        margin-bottom: 20px;
+      }
+
+      /* ---------- AFBEELDING ---------- */
+      img {
+        display: block;
+        margin: 15px auto;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      /* ---------- KNOP ---------- */
+      button {
+        display: block;
+        margin: 30px auto;
+        padding: 12px 24px;
+        background-color: #ff9800;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #e68a00;
+      }
+    </style>
+        
+        
+    </head>
+    <body>
+        <h1 class="title">Hello sunshine!</h1>
+  
+  <p class="text-lg text-gray-600 max-w-lg text-center">
+    In deze site wil ik ons verhaal vertellen! 🎉  
+    Van het begin op Werchter tot het moment waar we nu zijn.
+  </p>
+  
+  <p>Wat kan je verwachten:</p>
+  <ul>
+    <li>Foto's</li>
+    <li>De tijdlijn van ons verhaal</li>
+    <li>Weetjes</li>
+    <li>Anekdotes</li>
+  </ul>
+      
+  <p>
+    Hieronder zie je de plaatsen waar wij al allemaal geweest zijn met z'n tweeën.    
+    <br>
+    <img src="images/kaart.png" breedte="400">
+  </p>
+  
+  <button id="tijdlijn">Ga naar de tijdlijn!</button>
+  
+  <script>
+     document.getElementById("tijdlijn").addEventListener("click", function() {
+      // naar werchter.html in hetzelfde tabblad
+      window.location.href = "2werchter.html";
+    });
+  </script>
+    </body>
+    
+    
+</html>

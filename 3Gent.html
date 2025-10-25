@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        
+        <style>
+            
+      html, body {
+        height: auto;
+        padding: 0;
+        background-color: blue; /* Zachte blauwe achtergrond */
+      }
+      /* ---------- BASISOPMAAK ---------- */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: lightblue;
+        color: #333;
+        max-width: 600px; /* Pagina 600 pixels breed */
+        margin: 40px auto; /* Centreer op scherm */
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        background: white;
+        text-align: justify
+      }
+            
+           
+
+      /* ---------- TITEL ---------- */
+      .title {
+        text-align: center;
+        color: #ff9800;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+      }
+
+      /* ---------- TEKST ---------- */
+      p {
+        line-height: 1.6;
+        margin-bottom: 16px;
+      }
+
+      .text-lg {
+        font-size: 1.1em;
+      }
+
+      .text-gray-600 {
+        color: #666;
+      }
+
+      .max-w-lg {
+        max-width: 600px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      /* ---------- LIJST ---------- */
+      ul {
+        list-style-type: "🌻☀️ ";
+        padding-left: auto;
+        margin-bottom: 20px;
+      }
+
+      /* ---------- AFBEELDING ---------- */
+      img {
+        display: block;
+        margin: 15px auto;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      /* ---------- KNOP ---------- */
+      button {
+        display: table-row ;
+        justify-content: center;
+        margin:  30px auto;
+        padding: 12px 24px;
+        background-color: #ff9800;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+    #werchter {
+      float: left
+    }
+    #kortrijk {
+      float: right
+    }
+
+      button:hover {
+        background-color: #e68a00;
+      }
+    </style>
+        
+    </head>
+    
+    <body>
+    
+        <h1>Welkom in Gent!</h1>
+        
+        <p>
+            Van Werchter springen we twee weken verder naar Gent.
+            Beide waren we niet zeker dat de tegenpartij aanwezig ging zijn. Contrete afspraken waren niet van de partij. Het was een rare situatie.
+            Ik stapte op de trein om 13h07 in Poperinge. Toen ik je dit liet weten was er stress dat je er niet op tijd ging geraken. 
+            Je wist niet dat Poperinge zo ver lag 😄.Pas 
+            vanaf dat moment wist ik dat onze afspraak ging doorgaan haha, en ik vermoed jij ook. 
+            Eenmaal in waregem, bonste m'n hart uit m'n borstkas van de stress. Maar ook toen was je je lieve, zotte, opgewekte
+            en mooie zelf!! Het was een goed begin!
+        </p>
+                
+        <p>
+            Na afgestapt te hebben op Gent Sint-Pieters kon het beginnen!
+            <br>
+            M: "Wat gaan we doen? "
+            <br>
+            U: "Geen idee, ik ben hier nog nooit geweest. 'T is dus aan jou om iets uit je mouw te schudden!"
+            <br>
+            De toon was direct gezet. Ik wist direct: een vroutwtje met pit!
+        </p>
+        
+        <img src="images/Gent_Plat.png" alt="Onze Werchter foto" width="700">
+        
+        <p>
+            De dag startte met een wandeling naar en rond de Blaarmeersen. Het wandelen liet ons overtuigen om een Despi te 
+            halen naar Delhaize en deze te consumeren aan de watersportbaan. Het was een topsetting met een prachtig zicht, in het 
+            bijzijn van een prachtig persoon!
+            Enkel jammer dat wespen ons de baas werden! 
+            Na een sanitaire stop op m'n kot ging ons avontuur verder richting de lekkere vol-au-vent bij Poule & Poulette. 
+            Dit werd gevolgd door enkele drankjes in het sfeervolle café "De Spijker".
+            <br>
+            <img src="images/PP.png" alt="pp" width="300">
+        </p>
+        
+       
+        <p>
+            Het gesprek in Gent ging 70% over de recapitulatie van Werchter. Wat we hadden meegemaakt, wie we allemaal zagen, hoe moe we waren, 
+          hoe zat soms ook, ...
+            Het was leuk om deze terugblik met jou te maken, Uma! Daarnaast leerde ik je ook beter kennen. Ik kwam te weten dat je 
+            een positief, lief, zorgzaam en vooral energiek persoon bent! Het stelde me gerust dat "als je geen zin zou hebben, ik
+            het wel zou merken en je er ging onderuit muizen met een smoesje", zoals je zelf vertelde. Dit ludieke gesprek werd
+            gevolgd door een moment van de slappe lach. Vanaf hier wist ik dat het juist zat!
+        </p>
+        
+        <button id="werchter">Ga naar Werchter!</button>
+        <button id="kortrijk">Ga naar Nieuwpoort!</button>
+  
+        <script>
+            document.getElementById("werchter").addEventListener("click", function() {
+            window.location.href = "2werchter.html";
+            });
+                document.getElementById("kortrijk").addEventListener("click", function() {
+                        window.location.href = "4nieuwpoort.html";
+            });
+        </script>
+   
+    
+    </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        
+        <style>
+            
+      html, body {
+        height: auto;
+        padding: 0;
+        background-color: blue; /* Zachte blauwe achtergrond */
+      }
+      /* ---------- BASISOPMAAK ---------- */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: lightblue;
+        color: #333;
+        max-width: 600px; /* Pagina 600 pixels breed */
+        margin: 40px auto; /* Centreer op scherm */
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        background: white;
+        text-align: justify
+      }
+            
+           
+
+      /* ---------- TITEL ---------- */
+      .title {
+        text-align: center;
+        color: #ff9800;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+      }
+
+      /* ---------- TEKST ---------- */
+      p {
+        line-height: 1.6;
+        margin-bottom: 16px;
+      }
+
+      .text-lg {
+        font-size: 1.1em;
+      }
+
+      .text-gray-600 {
+        color: #666;
+      }
+
+      .max-w-lg {
+        max-width: 600px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      /* ---------- LIJST ---------- */
+      ul {
+        list-style-type: "🌻☀️ ";
+        padding-left: auto;
+        margin-bottom: 20px;
+      }
+
+      /* ---------- AFBEELDING ---------- */
+      img {
+        display: block;
+        margin: 15px auto;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+            
+            video {
+        display: block;
+        margin: 15px auto;
+        max-width: 100%;
+        border-radius: 10px;
+              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);}
+
+      /* ---------- KNOP ---------- */
+      button {
+        display: table-row ;
+        justify-content: center;
+        margin:  30px auto;
+        padding: 12px 24px;
+        background-color: #ff9800;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+    #westhoek {
+      float: left
+    }
+    #activiteiten {
+      float: right
+    }
+
+      button:hover {
+        background-color: #e68a00;
+      }
+    </style>
+        
+    </head>
+    <body>
+        
+        <h1>Weekendje Waregem!</h1>
+        
+        <p>
+            Het weekend waarop we beide hebben gewacht. Wij samen met twee alleen, doen waar we 
+            zin in hadden. Van afspreken met Femke, lekkere pasta van jou eten, tot bowlen, een voetbalmatch 
+            kijken en een supporter op de fiets terwijl ik aan het lopen was. 
+            <br>
+        </p>
+        <h2>
+            WAT EEN TOPWEEKEND!!!
+        </h2>
+        
+        <img src="images/WW1.JPEG" alt="ww1" width="300">
+        <video src="video/WW10.MP4" alt="ww10" width="300" controls></video>
+        <video src="video/WW11.MP4" alt="ww11" width="300" controls></video>
+        <video src="video/WW12.MP4" alt="ww12" width="300" controls></video>
+        <video src="video/WW11.MP4" alt="ww11" width="300" controls></video>
+        
+        <p>
+            We sloten dit prachtige weekend af met een wandeling door Waregem, met de gepaste snackjes!
+        </p>
+        
+       <img src="images/WW2.JPEG" alt="ww2" width="300">
+        <img src="images/WW3.JPEG" alt="ww3" width="300">
+        
+        <br>
+        <br>
+        
+        <button id="westhoek">Ga naar De Westhoek!</button>
+        <button id="activiteiten">Ga naar onze activiteiten!</button>
+  
+        <script>
+            document.getElementById("westhoek").addEventListener("click", function() {
+            window.location.href = "8westhoek.html";
+            });
+                document.getElementById("activiteiten").addEventListener("click", function() {
+                        window.location.href = "10Activiteiten.html";
+            });
+        </script>
+        
+    </body>
+</html>

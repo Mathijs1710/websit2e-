@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        
+        <style>
+            
+      html, body {
+        height: auto;
+        padding: 0;
+        background-color: blue; /* Zachte blauwe achtergrond */
+      }
+      /* ---------- BASISOPMAAK ---------- */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: lightblue;
+        color: #333;
+        max-width: 600px; /* Pagina 600 pixels breed */
+        margin: 40px auto; /* Centreer op scherm */
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        background: white;
+        
+      }
+            
+           
+
+      /* ---------- TITEL ---------- */
+      .title {
+        text-align: center;
+        color: #ff9800;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+      }
+
+      /* ---------- TEKST ---------- */
+      p {
+        line-height: 1.6;
+        margin-bottom: 16px;
+        text-align:justify
+      }
+
+      .text-lg {
+        font-size: 1.1em;
+      }
+
+      .text-gray-600 {
+        color: #666;
+      }
+
+      .max-w-lg {
+        max-width: 600px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      /* ---------- LIJST ---------- */
+      ul {
+        list-style-type: "🌻☀️ ";
+        padding-left: auto;
+        margin-bottom: 20px;
+      }
+
+            body{
+                text-align: center;
+            }
+      /* ---------- AFBEELDING ---------- */
+      img {
+        display: inline-block;
+        margin: 15px ;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        justify-content: center;
+      }
+
+      /* ---------- KNOP ---------- */
+      button {
+        display: table-row ;
+        justify-content: center;
+        margin:  30px auto;
+        padding: 12px 24px;
+        background-color: #ff9800;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+    #nieuwpoort {
+      float: left
+    }
+    #waregem {
+      float: right
+    }
+
+      button:hover {
+        background-color: #e68a00;
+      }
+    </style>
+        
+    </head>
+    <body>
+        
+         <h1>Welkom in Kortrijk!</h1>
+        
+        <p>
+            In Kortrijk nam je me mee naar het maisdoolhof. Voor een meisje met weinig geduld, ging dit
+            heel goed ;). Het was zoeken, lachen, dom doen, genieten en gezellig! Achteraf konden we genieten
+          van een verfrissend drankje!
+            <br>
+            
+        </p>
+        
+        <img src="images/K1.JPEG" alt="k1" width="300">
+        
+        <p>
+            Deze namiddag werd gevolgd door een stadswandeling in Kortrijk. We "ontdekten" samen de stad 
+            en dronken iets in het café vernoemd naar jou: BarUma! Opnieuw kwam de honger weer opdagen!
+            Het initiële idee was een pokébowl, maar dit draaide uit op een julientje van het Bellegems
+            Friethuis! Dit was zo lekker! Al snel werd duidelijk dat we vaak dezelfde ideëen hebben, 
+            dat je flexibel bent en openstaan voor (bijna) alles wat op je pad komt :)! Blijf wie je bent lieve
+            schat!!
+            <br>
+            
+        </p>
+        
+        <img src="images/K3.JPEG" alt="k3" width="300">
+            <img src="images/K2.JPEG" alt="k2" width="300">
+            <br>
+            <img src="images/K4.JPEG" alt="k4" width="300">
+        
+        <p>
+            Deze dag werd afgesloten met de film F1. We veroverden een plaatsje in de cozy seats. Dit was,
+            tegen alle verwachtingen in, één van de betere films die we zagen. We waren beide niet goed
+            na de afloop van de film, alles leek surrealistisch! Voor mij ook het feit dat alles zo goed ging
+            tussen ons! Ik verlangde naar meer, naar meer afspraakjes, naar meer dingen met jou!! 
+            <br>
+            <br>
+                 
+                
+           
+        </p>
+        
+        <button id="nieuwpoort">Ga naar Nieuwpoort!</button>
+        <button id="waregem">Ga naar Waregem!</button>
+  
+        <script>
+            document.getElementById("nieuwpoort").addEventListener("click", function() {
+            window.location.href = "4Nieuwpoort.html";
+            });
+            document.getElementById("waregem").addEventListener("click", function() {
+            window.location.href = "6waregem1.html";
+            });
+        </script>
+        
+        
+    </body>
+</html>

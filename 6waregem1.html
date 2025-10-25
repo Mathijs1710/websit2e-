@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        
+        <style>
+            
+      html, body {
+        height: auto;
+        padding: 0;
+        background-color: blue; /* Zachte blauwe achtergrond */
+      }
+      /* ---------- BASISOPMAAK ---------- */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: lightblue;
+        color: #333;
+        max-width: 600px; /* Pagina 600 pixels breed */
+        margin: 40px auto; /* Centreer op scherm */
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        background: white;
+        text-align: justify
+      }
+            
+           
+
+      /* ---------- TITEL ---------- */
+      .title {
+        text-align: center;
+        color: #ff9800;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+      }
+
+      /* ---------- TEKST ---------- */
+      p {
+        line-height: 1.6;
+        margin-bottom: 16px;
+      }
+
+      .text-lg {
+        font-size: 1.1em;
+      }
+
+      .text-gray-600 {
+        color: #666;
+      }
+
+      .max-w-lg {
+        max-width: 600px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      /* ---------- LIJST ---------- */
+      ul {
+        list-style-type: "🌻☀️ ";
+        padding-left: auto;
+        margin-bottom: 20px;
+      }
+
+      /* ---------- AFBEELDING ---------- */
+      img {
+        display: block;
+        margin: 15px auto;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+            
+    video {
+        display: block;
+        margin: 15px auto;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      /* ---------- KNOP ---------- */
+      button {
+        display: table-row ;
+        justify-content: center;
+        margin:  30px auto;
+        padding: 12px 24px;
+        background-color: #ff9800;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+    #nieuwpoort {
+      float: left
+    }
+    #onzestart {
+      float: right
+    }
+
+      button:hover {
+        background-color: #e68a00;
+      }
+    </style>
+        
+    </head>
+    <body>
+        <h1>Welkom in Waregem, jouw hometown!</h1>
+        
+        <p>
+            Na het kortrijkse riskeerde je het om met mij door de straten van Waregem te lopen! De dag zelf
+          waren we bij jou thuis. 's Middags maaken we een wandeling
+          zodat je papa ons niet ging zien. Na een
+            dagje chillen bij je thuis, gingen we op pad in de stad. We maakten er een mooie wandeling
+            en gingen garnaalkroketten eten in de Treffer! Zelf de schommel in het park kon je niet weerstaan!
+            <br>
+            <img src="images/W11.JPEG" alt="w11" width="300">
+            <img src="images/W12.JPEG" alt="w12" width="300">
+            <img src="images/W13.JPEG" alt="w13" width="300">
+            <br>
+            <video src="video/W1.MP4" alt="w1" width="300" controls></video>
+            
+        </p>
+        <p>
+            We sloten de dag af met een fijn gesprek om het bankje bij de vijver. De roséwijn van de Verhulstjes
+            zorgde mee voor de sfeer! Dit was wederom een topdate! 
+            <br>
+            <img src="images/W14.JPEG" alt="w14" width="300">
+        </p>
+        
+        <p>
+            Op de foto's is te zien dat je ook hier weer je zotte zelf was! Vrolijk, speels, goedlachs,
+            grappig, klaar om dom te doen maar vooral o zo lief!
+        </p>
+        
+        <button id="kortrijk">Ga naar Kortrijk!</button>
+        <button id="onzestart">Ga naar onze start!</button>
+  
+        <script>
+            document.getElementById("kortrijk").addEventListener("click", function() {
+            window.location.href = "5kortrijk.html";
+            });
+                document.getElementById("onzestart").addEventListener("click", function() {
+                        window.location.href = "7Start.html";
+            });
+        </script>
+        
+    </body>
+</html>
